@@ -10,7 +10,7 @@
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="22dp"
         android:text="En sevdiğiniz yemek: "
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/title2"
@@ -20,7 +20,7 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="29dp"
         android:text="En sevdiğiniz Şarkı: "
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView20"
@@ -33,7 +33,7 @@
         android:layout_marginTop="28dp"
         android:text="En sevdiğiniz kitap: "
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="@+id/textView21"
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
     <TextView
@@ -41,62 +41,64 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginBottom="24dp"
         android:fontFamily="@font/archivo_black"
         android:text="Kullanıcı Bilgileriniz"
         android:textColor="@color/appcolor"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/title2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginStart="45dp"
         android:fontFamily="@font/archivo_black"
         android:text="Anket Cevaplarınız"
         android:textColor="@color/appcolor"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="17dp"
         android:text="Ad-Soyad: "
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/tv_ad"
-        app:layout_constraintTop_toBottomOf="@+id/title1" />
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="16dp"
         android:text="Yaş: "
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView10"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="171dp"
         android:text="Yaşadığı Ülke: "
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
         android:layout_marginTop="16dp"
         android:text="Yaşadığı Şehir: "
         android:textStyle="bold"
@@ -107,7 +109,7 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="17dp"
         android:text="Mail: "
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView13"
@@ -117,92 +119,91 @@
         android:id="@+id/tv_ad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="108dp"
+        android:layout_marginEnd="1dp"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_yemek"
+        app:layout_constraintStart_toStartOf="@+id/tv_kitap"
         app:layout_constraintTop_toBottomOf="@+id/title1" />
 
     <TextView
         android:id="@+id/tv_yas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="1dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="@+id/tv_ad"
         app:layout_constraintTop_toBottomOf="@+id/tv_ad" />
 
     <TextView
         android:id="@+id/tv_ulke"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="@+id/tv_yas"
         app:layout_constraintTop_toBottomOf="@+id/tv_yas" />
 
     <TextView
         android:id="@+id/tv_sehir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
+        android:layout_marginStart="1dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/tv_ulke"
         app:layout_constraintTop_toBottomOf="@+id/tv_ulke" />
 
     <TextView
         android:id="@+id/tv_mail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="168dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/tv_sehir"
         app:layout_constraintTop_toBottomOf="@+id/tv_sehir" />
 
     <TextView
         android:id="@+id/tv_yemek"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="22dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintStart_toEndOf="@+id/title2"
         app:layout_constraintTop_toBottomOf="@+id/title2" />
 
     <TextView
         android:id="@+id/tv_sarkı"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="1dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="@+id/tv_yemek"
         app:layout_constraintTop_toBottomOf="@+id/tv_yemek" />
 
     <TextView
         android:id="@+id/tv_kitap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
         android:layout_marginTop="28dp"
+        android:layout_marginEnd="1dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="@+id/tv_sarkı"
         app:layout_constraintTop_toBottomOf="@+id/tv_sarkı" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="96dp"
+        android:layout_marginBottom="74dp"
         android:backgroundTint="#00BCD4"
         android:text="Başlangıç Ekranına Dön"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
