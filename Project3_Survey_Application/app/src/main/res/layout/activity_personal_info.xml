@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PersonalInfo">
+
+    <TextView
+        android:id="@+id/nameSurname"
+        android:layout_width="362dp"
+        android:layout_height="33dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/archivo_black"
+        android:textColor="@color/appcolor"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="25dp"
+        android:text="Ad Soyad" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yaşınız"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <EditText
+        android:id="@+id/etage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Bulunduğunuz Ülke"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <EditText
+        android:id="@+id/etCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="Bulunduğunuz Şehir"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mailiniz"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <Button
+        android:id="@+id/buttonbasla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ankete Başla"
+        android:backgroundTint="#00BCD4"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+</LinearLayout>

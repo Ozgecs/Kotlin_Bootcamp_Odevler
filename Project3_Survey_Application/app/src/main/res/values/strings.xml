@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Survey_Application</string>
+    <string name="button_1_text">HOŞGELDİNİZ</string>
+    <string name="ad_soyad">Ad Soyad</string>
+    <string name="sevilen_yemek">En sevdiğiniz yemek nedir?</string>
+    <string name="sevilen_sarki">En sevdiğiniz şarkı nedir?</string>
+    <string name="sevilen_kitap">En sevdiğiniz kitap nedir?</string>
+    <string name="sonuc_goster">Sonuçları Göster</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Survey">
+
+    <TextView
+        android:id="@+id/nameSurname2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ad_soyad"
+        android:textSize="17sp"
+        android:fontFamily="@font/archivo_black"
+        android:textColor="@color/appcolor"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="25dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sevilen_yemek"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <EditText
+        android:id="@+id/etcevap1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sevilen_sarki"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <EditText
+        android:id="@+id/etcevap2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sevilen_kitap"
+        android:fontFamily="@font/archivo_black"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <EditText
+        android:id="@+id/etcevap3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"/>
+
+    <Button
+        android:id="@+id/btnsonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sonuc_goster"
+        android:backgroundTint="@color/appcolor"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25dp"
+        />
+
+
+</LinearLayout>
