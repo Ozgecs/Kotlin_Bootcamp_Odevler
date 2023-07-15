@@ -31,7 +31,7 @@
 
 ## Project 3 : Anket Uygulaması -> Ekran Çıktıları
 
-![Activity1](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/b1621912-8834-445c-83d1-83c30529db05)
-![Activity2](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/cd591cea-d011-441d-a4f7-67bb272583a9)
-![Activity3](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/c43bdfcf-0661-43a5-8803-a95dbd0c70fc)
-![Activity4](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/43a7d1fd-77d8-4843-8b4e-bda37276cb5f)
+![app1](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/b0590812-c007-487b-a1cc-2ae461162a32)
+![app2](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/512116a8-57c7-4575-9d79-1c048f1b5a6a)
+![app3](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/73da9578-9d3a-4af7-803f-ce5ee1c56c09)
+![app4](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/0cdc6b26-ced6-4d40-b829-74cc2116f4b7)
