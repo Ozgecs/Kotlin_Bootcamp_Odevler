@@ -15,7 +15,7 @@
 
 ![Uygulama Ekran Görüntüsü](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/blob/main/Photos/q2.png)
 
-### Soru 
+### Soru 3
 
 ![Uygulama Ekran Görüntüsü](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/blob/main/Photos/q3.png)
 
