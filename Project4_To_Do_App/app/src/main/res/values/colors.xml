@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--arka plan rengi-->
+    <color name="port_gore">#251f48</color>
+    <!--Not elemanları için bu renk-->
+    <color name="perfume">#Dabbfa</color>
+    <!--buton renkleri için bu renk-->
+    <color name="east_bay">#504982</color>
+    <!--ayrıntı kartı için-->
+    <color name="white_ice">#D7f8f2</color>
+</resources>

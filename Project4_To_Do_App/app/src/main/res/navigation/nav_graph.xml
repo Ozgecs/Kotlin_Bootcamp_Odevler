@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/toDoFragment">
+
+    <fragment
+        android:id="@+id/toDoFragment"
+        android:name="com.ozge.to_do_app.ui.ToDoFragment"
+        android:label="ToDoFragment"
+        tools:layout="@layout/fragment_todo">
+        <action
+            android:id="@+id/action_toDoFragment_to_completedFragment"
+            app:destination="@id/completedFragment"
+            app:popUpTo="@id/toDoFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_toDoFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.ozge.to_do_app.ui.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="todo"
+            app:argType="com.ozge.to_do_app.data.model.ToDo" />
+        <argument
+            android:name="fromtoDo"
+            app:argType="boolean"
+            android:defaultValue="true" />
+        <action
+            android:id="@+id/action_detailsFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/completedFragment"
+        android:name="com.ozge.to_do_app.ui.CompletedFragment"
+        android:label="fragment_completed"
+        tools:layout="@layout/fragment_completed" >
+        <action
+            android:id="@+id/action_completedFragment_to_toDoFragment"
+            app:destination="@id/toDoFragment"
+            app:popUpTo="@id/completedFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_completedFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:popUpTo="@id/completedFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
