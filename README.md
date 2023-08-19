@@ -39,3 +39,6 @@
 
 
 ## Project 4 : To-Do App -> Ekran Çıktıları
+![ekran1](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/0de7f872-ae9d-4ee8-a002-1e78838e1aef)
+![ekran2](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/59c06c9d-03f3-40cd-b69b-4c2d2759bd0a)
+![ekran3](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/ca3cbe97-b497-4ace-a226-ccd6ef3aa628)
