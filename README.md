@@ -46,5 +46,6 @@
 
 ## Project 5 : Book App -> Ekran Çıktıları
 
-![book1](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/5e4496a1-a442-47a9-a240-496d7f4e3915)
-![book2](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/da25d77b-ada4-40dd-9c53-95dc1e2d6663)
+![book2](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/8c7bca48-669e-4172-b856-2a499775341f)
+![book1](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/c14abe02-7b60-4e8a-a4f4-ddab8f337eca)
+
