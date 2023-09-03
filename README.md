@@ -42,3 +42,10 @@
 ![ekran1](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/0de7f872-ae9d-4ee8-a002-1e78838e1aef)
 ![ekran2](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/59c06c9d-03f3-40cd-b69b-4c2d2759bd0a)
 ![ekran3](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/ca3cbe97-b497-4ace-a226-ccd6ef3aa628)
+
+
+## Project 5 : Book App -> Ekran Çıktıları
+
+![book2](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/8c7bca48-669e-4172-b856-2a499775341f)
+![book1](https://github.com/Ozgecs/Kotlin_Bootcamp_Odevler/assets/82881652/c14abe02-7b60-4e8a-a4f4-ddab8f337eca)
+
